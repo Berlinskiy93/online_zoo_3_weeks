@@ -1,0 +1,179 @@
+/* Сброс стандартных стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: flex; /*  делает контейнер гибким (flexbox) */
+   gap: 20px; /* Расстояние между пунктами */
+    padding: 0px;
+    list-style-type: none; /* Убирает маркеры */
+    margin: 0;
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #000000;
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+}
+
+
+.nav-link{
+   text-decoration: none;
+    color: white;
+}
+
+.logo{
+    /* logo_footer */
+
+    position: absolute;
+    width: 82px;
+    height: 6px;
+    left: 220px;
+    top: 14px;
+
+}
+
+
+
+.about{
+    /* About */
+
+    position: absolute;
+    width: 43px;
+    height: 22px;
+    left: 365px;
+    top: 29px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    /* orange */
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.map{
+    /* Map */
+
+    position: absolute;
+    width: 32px;
+    height: 22px;
+    left: 466px;
+    top: 29px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    color: #FFFFFF;
+}
+
+.zoos{
+    /* Zoos */
+
+    position: absolute;
+    width: 36px;
+    height: 22px;
+    left: 556px;
+    top: 29px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    color: #FFFFFF;
+}
+
+.donate{
+    /* Donate */
+
+    position: absolute;
+    width: 51px;
+    height: 22px;
+    left: 650px;
+    top: 29px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    color: #FFFFFF;
+}
+
+.contact{
+    /* Contact us */
+
+    position: absolute;
+    width: 78px;
+    height: 22px;
+    left: 759px;
+    top: 29px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    color: #FFFFFF;
+}
+
+.designed{
+    /* Designed by © */
+
+    position: absolute;
+    width: 105px;
+    height: 22px;
+    left: 1275px;
+    top: 29px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    color: #FFFFFF;
+}
+
+/* body */
+
+
+.panda-image {
+    width: 1600px;
+    height: 780px;
+}
+
+.circle {
+
+
+    width: 465px;
+    height: 465px;
+
+    top: 92px;
+
+}
